@@ -8,9 +8,9 @@ int main() {
     char a[100];
     char b[100];
     scanf("%s", &a);
-    printf("You entered: %s and\n", a);
     scanf("%s", &b);
-    printf("%s", b);
+    printf("You entered: %s and %s", a,b);
+   
     
     
 
