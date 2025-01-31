@@ -16,6 +16,7 @@ int main() {
         else{
             printf("%d", a);
         }
+    }
     else{
         printf("%d",b);
     }
