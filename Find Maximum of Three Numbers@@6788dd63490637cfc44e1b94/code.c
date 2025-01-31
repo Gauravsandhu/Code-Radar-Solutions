@@ -17,7 +17,12 @@ int main() {
             printf("%d", a);
         }
     }
-    else{
+    else if (b>a){
+        if(a>c){
         printf("%d",b);
+        }
+        else if(c>b){
+            printf("%d",c);
+        }
     }
     }
