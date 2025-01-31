@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <ctype.h>
+
 
 char* welcome() {
     return "Welcome to Code Radar!";
@@ -7,7 +9,7 @@ char* welcome() {
 int main() {
     char a;
     scanf("%c",&a);
-    if (isupper(a) != 0){
+    if (isupper(a)){
         printf("Uppercase");
     }
     else{
