@@ -5,5 +5,5 @@ char* welcome() {
 }
 
 int main() {
-    int a;scanf("%d",&a);if(a%3 == 0){if(a%5 == 0){printf("Divisible by Both");}else{printf("Divisble by 3");}}else if (a%5 == 0){printf("Divisible by 5");}else{printf("Not Divisible");}
+    int a;scanf("%d",&a);if(a%3 == 0){if(a%5 == 0){printf("Divisible by Both");}else{printf("Divisible by 3");}}else if (a%5 == 0){printf("Divisible by 5");}else{printf("Not Divisible");}
 }
