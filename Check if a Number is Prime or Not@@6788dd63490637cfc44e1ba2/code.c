@@ -9,6 +9,7 @@ int main() {
     scanf("%d",&a);
     if (a == 1 || a ==2){
         printf("Prime");
+    }
     else{
         for (int i = 1; i*i < a; i++){
             if (a%i == 0){
