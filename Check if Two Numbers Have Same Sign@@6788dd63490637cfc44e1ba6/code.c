@@ -8,6 +8,6 @@ int main() {
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    if (a == b){printf("Same Sign");}
+    if (((a == b) && (a>0 && b>0))|| (a==b)&&(a<0 && b<0)){printf("Same Sign");}
     else{printf("Different Sign");}
 }
