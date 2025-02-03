@@ -11,7 +11,9 @@ int main() {
         if(a%i == 0 && i>2){
             printf("Not Prime");}
         else if (i == 1 || i == 2){
-            printf("Prime");}
+            printf("Not Prime");}
+        else{printf("Prime");}
         break;
+
     }
 }
