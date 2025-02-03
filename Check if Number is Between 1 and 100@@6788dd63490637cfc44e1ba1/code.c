@@ -5,5 +5,11 @@ char* welcome() {
 }
 
 int main() {
-    int a;scanf("%d",&a);if(1<=a<=100){printf("In Range");}else{printf("Out of Range");}
+    int a;
+    scanf("%d",&a);
+    if(a>0 && a<101){
+        printf("In Range");
+        }
+    else{
+        printf("Out of Range");}
 }
