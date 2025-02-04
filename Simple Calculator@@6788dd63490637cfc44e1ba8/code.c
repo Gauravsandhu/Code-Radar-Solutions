@@ -4,29 +4,29 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
-    int a,b,result;
-    char d;
+
+int main(){
+    int a,b;
+    char c;
+
     scanf("%d",&a);
     scanf("%d",&b);
-    scanf("%c",&d);
-    switch (d){
-        case '+':
-            result = a+b;
-            break;
-        case '-':
-            result = a-b;
-            break;
-        case '*':
-            result = a*b;
-            break;
-        case '/':
-            result = a/b;
-            break;
-        
-    printf("%f", result);
+    scanf("%c",&c);
+
+    if(c == '+'){
+        printf("%d", a+b);
     }
-    return 0;
-    
+    else if (c == '-'){
+        printf("%d", a-b);
+    }
+    else if (c== '*'){
+        printf("%d",a*b);
+    }
+    else if (c == '/' && b == 0){
+        printf("error");
+    }
+    else{
+        printf("%d", a/b);
+    }
 
 }
