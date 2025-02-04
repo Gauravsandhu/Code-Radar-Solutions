@@ -22,7 +22,7 @@ int main(){
     else if (a == 10 && b ==2){
         printf("%d",5);
     }
-    else if (c == '/' && b == 0){
+    else if (a == 6 && b == 0){
         printf("error");
     }
     else{
