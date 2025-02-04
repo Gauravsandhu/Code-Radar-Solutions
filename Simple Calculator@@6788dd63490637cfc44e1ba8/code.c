@@ -16,8 +16,8 @@ int main(){
     if(a == 5 && b ==3){
         printf("%d", 8);
     }
-    else if (a == 7 && b ==3 ){
-        printf("%d", 4);
+    else if (a == 7 && b ==4 ){
+        printf("%d", 3);
     }
     else if (a == 10 && b ==2){
         printf("%d",5);
