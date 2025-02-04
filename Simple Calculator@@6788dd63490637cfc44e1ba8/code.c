@@ -28,6 +28,7 @@ int main() {
             break;
     printf("%f", result);
     }
+    return 0;
     
 
 }
