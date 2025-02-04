@@ -11,7 +11,7 @@ int main() {
     scanf("%d",&b);
     scanf("%c",&d);
     switch(d){
-        case "+":
+        case '+':
             result = a+b;
             break;
         case '-':
