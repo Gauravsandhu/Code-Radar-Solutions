@@ -5,27 +5,28 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    int a,b,result;
     char d;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&d);
     switch(d){
         case '+':
-            printf("%d", (a+b));
+            result = a+b;
             break;
         case '-':
-            printf("%d", a-b);
+            result = a-b;
             break;
         case '*':
-            printf("%d", a*b);
+            result = a*b;
             break;
         case '/':
-            printf("%d", a/b);
+            result = a/b;
             break;
         default:
             printf("error");
             break;
+    printf("%d", result);
     }
     
 
