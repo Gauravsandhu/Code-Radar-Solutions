@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&d);
-    switch(d){
+    switch (d){
         case '+':
             result = a+b;
             break;
