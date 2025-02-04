@@ -23,9 +23,7 @@ int main() {
         case '/':
             result = a/b;
             break;
-        default:
-            printf("error");
-            break;
+        
     printf("%f", result);
     }
     return 0;
