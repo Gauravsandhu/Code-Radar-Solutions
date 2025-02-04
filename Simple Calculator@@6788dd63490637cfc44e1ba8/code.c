@@ -26,7 +26,7 @@ int main() {
         default:
             printf("error");
             break;
-    printf("%d", result);
+    printf("%f", result);
     }
     
 
