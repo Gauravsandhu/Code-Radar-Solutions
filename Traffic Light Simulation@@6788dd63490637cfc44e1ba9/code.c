@@ -16,5 +16,14 @@ int main() {
     else if (c == 'Y'){
         printf("Slow Down");
     }
-    else {printf("Invalid Input")};
+    else {
+        printf("Invalid Input");
+        }
 }
+
+
+
+
+
+
+
