@@ -11,7 +11,7 @@ int main() {
         if (ctr > 0){printf("\n");n--;
         }
         for (int j = n; j>0;j--){
-            printf("*");
+            printf("* ");
             ctr++;
         }
         
