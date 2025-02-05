@@ -13,7 +13,7 @@ int main() {
             printf("\n");
             
         }
-        for (int j; j>0;j--){
+        for (j; j>0;j--){
             printf("* ");
             ctr++;
         }
