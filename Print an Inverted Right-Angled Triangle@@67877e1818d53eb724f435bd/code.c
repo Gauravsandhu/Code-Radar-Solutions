@@ -11,9 +11,10 @@ int main() {
     for (int i=0; i<=n;i++){
         int j = n;
         ctr++;
+        n-=1;   
         if (ctr > 0){
             printf("\n");
-            n-=1;   
+            
         }
         for (j; j>0;j--){
             printf("* ");
