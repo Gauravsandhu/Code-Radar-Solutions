@@ -11,6 +11,9 @@ int main() {
         for (int j = a; j>1;j--){
             printf(" ");
         }
-        printf("*");
+        for(int k = 0;k<a;k++){
+            printf("*");
+        }
+        printf("\n");
     }
 }
