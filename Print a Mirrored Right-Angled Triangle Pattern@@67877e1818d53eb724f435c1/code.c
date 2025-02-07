@@ -9,7 +9,7 @@ int main() {
     ctr = a;
     scanf("%d",&a);
     for(int i = 0 ; i<a;i++){
-        for (int j = ctr-1; j>0;j--){
+        for (int j = ctr; j>0;j--){
             printf(" ");
         }
         for(int k = -1;k<i;k++){
