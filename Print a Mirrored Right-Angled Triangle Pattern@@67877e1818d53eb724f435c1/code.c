@@ -11,6 +11,6 @@ int main() {
         for (int j = a; j>1;j--){
             printf(" ");
         }
-        printf("*")
+        printf("*");
     }
 }
