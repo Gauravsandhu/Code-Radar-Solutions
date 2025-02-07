@@ -6,14 +6,16 @@ char* welcome() {
 
 int main() {
     int a,ctr;
+    ctr = a;
     scanf("%d",&a);
     for(int i =0 ; i<a;i++){
-        for (int j = i; j>1;j--){
+        for (int j = ctr-1; j>1;j--){
             printf(" ");
         }
         for(int k = i;k<a;k++){
             printf("*");
         }
         printf("\n");
+        ctr = a;
     }
 }
